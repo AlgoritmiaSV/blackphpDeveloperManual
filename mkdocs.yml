@@ -1,0 +1,19 @@
+site_name: BlackPHP
+site_url: https://manuales.algoritmia.sv/blackphpDeveloper/
+site_description: Manual de desarrollador de BlackPHP
+site_author: Edwin Fajardo
+copyright: Copyright &copy;2024 Algoritmia SV
+site_dir: /store/bphp/manuals/blackphpDeveloper
+nav:
+  - Inicio: index.md
+  - Instalación: installation.md
+  - Manual: developer_manual.md
+  - 'Creación de proyectos': create_a_project.md
+theme:
+  name: mkdocs
+  nav_style: dark
+  locale: es
+extra_css:
+  - css/algoritmiasv.css
+markdown_extensions:
+  - attr_list
